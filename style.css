@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+
+background: #69ABE9;
+
+}
+
+.container-grande{
+position: absolute;
+width: 1000px;
+height: 614px;
+left: calc(50% - 1000px/2);
+top: calc(50% - 614px/2);
+
+background: #E1F1FF;
+opacity: 0.8;
+border-radius: 9px;
+
+display: flex;
+align-items: center;
+}
+
+.container-menor{
+position: absolute;
+width: 500px;
+height: 614px;
+left: calc(50% - 500px/2 + 250px);
+top: calc(50% - 614px/2);
+
+background: #F3F9FF;
+opacity: 0.8;
+border-radius: 0px 9px 9px 0px;
+
+display: flex;
+justify-content: center;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image{
+    margin-left: 5vw;
+}
+
+.criar-conta{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+gap: 1.1vw;
+
+}
+
+.text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #B5B5B5;
+}
+
+button{
+width: 111px;
+height: 36px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+box-sizing: border-box;
+
+border: 2px solid #5198DA;
+background-color: transparent;
+border-radius: 83px;
+
+}
+
+.criar{
+width: 80px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #5198DA;
+}
+
+h1{
+width: 121px;
+height: 54px;
+
+margin-top: 7vh;
+margin-left: 2vw;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+
+color: #000000;
+}
+
+.email{
+width: 57px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#email{
+box-sizing: border-box;
+
+width: 359px;
+height: 37px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 2px solid #CDCDCD;
+border-radius: 8px;
+}
+
+.senha{
+width: 66px;
+height: 8.14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#senha{
+box-sizing: border-box;
+
+width: 359px;
+height: 37px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 2px solid #CDCDCD;
+border-radius: 8px;
+}
+
+.esqueceu{
+width: 127px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #B5B5B5;
+
+margin-top: 2vh;
+}
+
+.entrar-t{
+    margin-left: -0.2vw;
+}
+
+.entrar{
+width: 111px;
+height: 36px;
+
+background: #5198DA;
+border-radius: 83px;
+}
+
+#entrar{
+width: 50px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.relembre-ordem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 2vw;
+}
+
+.re{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.relembre{
+width: 126px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+color: #B5B5B5;
+}
